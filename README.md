@@ -1,4 +1,4 @@
-This is the content used at the WPooW talk during WordCamp 2019 CapeTown (01/11/2018)
+This is the content used at the WPooW talk during WordCamp 2018 CapeTown (01/11/2018)
 
 If you are starting of 
 1. Go to the Start Folder and copy the `wc_content_manager` folder to your plugins folder in your WordPress site (`wp-content/plugins`)
