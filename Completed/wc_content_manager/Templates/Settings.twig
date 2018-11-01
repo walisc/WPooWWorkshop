@@ -1,0 +1,22 @@
+
+<div class="wrap">
+<h1>WC Settings</h1>
+
+<form method="post" action="options.php">
+    <?php settings_fields( 'my-cool-plugin-settings-group' ); ?>
+    <?php do_settings_sections( 'my-cool-plugin-settings-group' ); ?>
+    <table class="form-table">
+        <tr valign="top">
+        <th scope="row">Conference Date</th>
+        <td><input type="text" name="new_option_name" value="" /></td>
+        </tr>
+         
+        <tr valign="top">
+        <th scope="row">Conference Location</th>
+        <td><input type="text" name="some_other_option" value="" /></td>
+        </tr>
+        
+    </table>
+
+</form>
+</div>
